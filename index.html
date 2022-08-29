@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  
+<div class="container">
+
+  
+  <div class="header__inner">
+    <h1 class="header text-center mb-3">Movies</h1>
+    <div class="row">
+      <input class="input w-50 mx-auto mb-5 p-2 fw-bold " type="text" placeholder="Search your favourite movies">
+
+    </div>
+    <ul class="list row gy-4 justify-content-center ps-0 justify-content-md-between flex-wrap">
+
+    </ul>
+  </div>
+
+  <template id="template-element">
+      <li class="card px-0" style="width: 300px">
+        <img class="card-img-top" src="https://picsum.photos/id/200/400"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+        </div>
+      </li>
+  </template>
+  
+</div>
+  
+
+  <script src="./js/movies.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
